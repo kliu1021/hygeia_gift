@@ -1,0 +1,142 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title> Order </title>
+    <link rel="stylesheet" href="../styles.css"> 
+</head>
+<body>
+    <header>
+        <nav role="navigation" aria-label="main menu">
+            <ul class="navbar">
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../fruit/fruit.html">Fruit</a>
+                </li>
+                <li>
+                    <a href="../order/order.html">Order</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="brand">
+        <h1>Hygeia's Gift</h1>
+        <img src="../logo.jpg" alt="logo">
+    </div>
+    <h3>Please fill out this form and make sure all the information is correct!</h3>
+    <p>After you select the type of basket and the fruits, we will create the fruit basket. 
+        The fruit basket will be delivered within 5-7 business days. Please be patient!</p>
+    
+    <form>
+        <label for="fname">First name:</label>
+            <input type="text" id="fname" >
+        <br>
+        <br>
+        <label for="lname">Last name:</label>
+            <input type="text" id="lname" >
+        <br>
+        <br>
+        <label for="address">Address:</label>
+            <input type="text" id="address" >
+        <br>
+        <br>
+        <label for="city">City:</label>
+            <input type="text" id="city" >
+        <br>
+        <br>
+        <label for="state">State:</label>
+            <input type="text" id="state" >
+        <br>
+        <br>
+        <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" >
+        <br>
+        <br>
+        <label for="email"> Email:</label>
+        <input type="text" id="email">
+        <br>
+        <br>
+        <label for="phone"> Phone number:</label>
+        <input type="text" id="phone" placeholder="xxx-xxx-xxxx">
+        <br>
+        <br>
+        <label for="choose">What occasion is this fruitbasket for?</label>
+            <select id="choose">
+                <option value="birthday">Birthday</option>
+                <option value="valentines">Valentines</option>
+                <option value="motherday">Mother's Day</option>
+                <option value="fatherday">Father's Day</option>
+                <option value="graduation">Graduation</option>
+                <option value="getwell">Get Well Soon</option>
+                <option value="thanksgiving">Thanksgiving</option>
+                <option value="christmas">Christmas</option>
+                <option value="newyear">New Year</option>
+                <option value="other">Other</option>
+            </select>
+        <br>
+        <br>
+        <label for="otheroccasion"> If you pick other occasion, please write it here:</label>
+        <input type="text" id="otheroccasion">
+        <br>
+        <br>
+        <label for="basket">Type of basket:</label>
+            <input type="radio" id="basket1" name="basket">
+                <label for="basket1">Square</label>
+            <input type="radio" id="basket2" name="basket">
+                <label for="basket2">Circle</label>
+            <input type="radio" id="basket3" name="basket">
+                <label for="basket3">Rectangle</label>
+        <br>
+        <br>
+        <label for="basket">Select all the fruit you want:</label>
+            <br>
+            <input type="checkbox" id="checkbox1" name="checkbox1">
+                <label for="checkbox1">Lemon</label>
+                <br>
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+                <label for="checkbox2">Strawberry</label>
+                <br>
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+                <label for="checkbox3">Orange</label>
+                <br>
+            <input type="checkbox" id="checkbox4" name="checkbox4">
+                <label for="checkbox4">Limes</label>
+                <br>
+            <input type="checkbox" id="checkbox5" name="checkbox5">
+                <label for="checkbox5">Grapefruit</label>
+                <br>
+            <input type="checkbox" id="checkbox6" name="checkbox6">
+                <label for="checkbox6">Blackberry</label>
+                <br>
+            <input type="checkbox" id="checkbox7" name="checkbox7">
+                <label for="checkbox7">Apple</label>
+                <br>
+            <input type="checkbox" id="checkbox8" name="checkbox8">
+                <label for="checkbox8">Pomegranate</label>
+                <br>
+            <input type="checkbox" id="checkbox9" name="checkbox9">
+                <label for="checkbox9">Pineapple</label>
+                <br>
+            <input type="checkbox" id="checkbox10" name="checkbox10">
+                <label for="checkbox10">Banana</label>
+                <br>
+            <input type="checkbox" id="checkbox11" name="checkbox11">
+                <label for="checkbox11">Avocado</label>
+                <br>
+            <input type="checkbox" id="checkbox12" name="checkbox12">
+                <label for="checkbox12">Blueberry</label>
+        <br>
+        <br>
+        <input type="button" value="Done">
+    </form>
+    <br>
+<div>
+    <footer><pre><p>        <b>Hygeia's Gift</b>
+        1801 N. Broad Street
+        Philadelphia, PA 19122 USA
+        215-204-7000 </p></pre>
+    </footer>
+</div>
+</body>
+</html>
